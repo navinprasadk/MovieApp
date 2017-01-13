@@ -164,12 +164,17 @@ padding-right: 15px;
 
   .large.sidebar.icon{
     padding-left: 60px;
-    padding-top: 40px;  
+    padding-top: 40px;
   }
 
 
   #jumbo img{
     margin-top: 0px;
+  }
+  #top-min-logo
+  {
+    display: none;
+
   }
 
 }
@@ -181,9 +186,12 @@ padding-right: 15px;
     display: none;
 
   }
+  #top-min-logo
+  {
+    display: none;
+
+  }
   #toggle{
     display: none;
   }
-
-
 }
