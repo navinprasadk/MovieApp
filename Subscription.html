@@ -17,45 +17,60 @@
 </head>
 <body>
 
-  <div class="ui fixed icon menu stackable">
-    <div class="ui equal width grid">
-      <div class="ui center aligned column">
-        <div class="logo-header"><img src="img/spiii.jpg" alt="SPI cinemas logo"></div>
-      </div>
-    </div>
-
-        <div class="right item" > <a href="#"> <i class=" home large icon"></i>    <p>Home</p></a></div>
-        <div class="right item">  <a href="#"> <i class=" film large icon"></i>    <p>Movies<p></a></div>
-        <div class="right item">  <a href="#"> <i class=" image large icon"></i>   <p>Gallery<p></a></div>
-        <div class="right item">  <a href="#"> <i class=" calendar large icon"></i><p>Show times<p></a></div>
-        <div class="right item">  <a href="#"> <i class="tasks large icon"></i>    <p>Features<p></a></div>
-        <div class="right item">  <a href="#"> <i class="ticket large icon"></i>   <p>Book Tickets<p></a></div>
-        <div class="right item">  <a href="#"> <i class=" call large icon"></i>    <p>Contact us<p></a></div>
-
+  <div class="ui sidebar vertical left menu">
+    <a href="#" class="item">Home</a>
+    <a href="#" class="item">Movies</a>
+    <a href="#" class="item">Gallery</a>
+    <a href="#" class="item">Show times</a>
+    <a href="#" class="item">Features</a>
+    <a href="#" class="item">Book Tickets</a>
+    <a href="#" class="item"  >Contact us</a>
   </div>
+
+  <div class="ui equal width grid" id="top-logo">
+    <div class="item" id="toggle">
+     <br><a href="#"><i class="large sidebar icon"></i></a>
+    </div>
+    <div class="ui center aligned column">
+      <div class="logo-header"><img src="img/spiii.jpg" alt="SPI cinemas logo"></div>
+    </div>
+  </div>
+
+
+<div class="ui fixed icon menu stackable" id="top-menu">
+<div class="ui equal width grid">
+  <div class="ui center aligned column">
+    <div class="logo-header"><img src="img/spiii.jpg" alt="SPI cinemas logo"></div>
+  </div>
+</div>
+
+    <div class="right item" > <a href="#"> <i class=" home large icon"></i>    <p>Home</p></a></div>
+    <div class="right item">  <a href="#"> <i class=" film large icon"></i>    <p>Movies<p></a></div>
+    <div class="right item">  <a href="#"> <i class=" image large icon"></i>   <p>Gallery<p></a></div>
+    <div class="right item">  <a href="#"> <i class=" calendar large icon"></i><p>Show times<p></a></div>
+    <div class="right item">  <a href="#"> <i class="tasks large icon"></i>    <p>Features<p></a></div>
+    <div class="right item">  <a href="#"> <i class="ticket large icon"></i>   <p>Book Tickets<p></a></div>
+    <div class="right item">  <a href="#"> <i class=" call large icon"></i>    <p>Contact us<p></a></div>
+</div>
 
 <div class="section">
   <div class="ui grid" >
         <!-- <div class="fourteen wide field column"></div> -->
         <div class="ui one column right aligned grid">
-          <button class="ui inverted green button">
-            Okay
-          </button>
-          <button class="ui inverted red button">
-            Cancel
-        </button>
+        
         <!-- </div>-->
       </div>
       </div>
-    <div class="ui one column center aligned grid">
+    <div class="ui one column center aligned grid stackable">
     <div class="column six wide form-holder">
       <h2 class="center aligned header form-head">Sign in</h2><br>
       <div class="ui form">
+        <form >
         <div class="field">
-          <input type="text" placeholder="firstname" required="">
+          <input type="text" placeholder="firstname" required>
         </div>
         <div class="field">
-          <input type="text" placeholder="lastname" required="">
+          <input type="text" placeholder="lastname" required>
         </div>
         <div class="field">
           <select>
@@ -67,7 +82,7 @@
 
         <div class="field">
 
-            <input type="email" placeholder="navin@gmail.com" required="">
+            <input type="email" placeholder="navin@gmail.com" required>
         </div>
 
 
@@ -75,10 +90,11 @@
           <input type="submit" value="subscribe" class="ui button large fluid black">
         </div>
 
+
           <div class="ui checkbox">
             <input type="checkbox">
             <label>Remember me</label>
-
+          </form>
         </div>
       </div>
     </div>
