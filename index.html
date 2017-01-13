@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>SPI Cinemas</title>
   <link rel="icon" type="image/png" href="img/spi-icon.png" />
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/semantic.min.css">
+  <link rel="stylesheet" type="text/css" href="dist/semantic.min.css">
   <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -14,8 +14,9 @@
 
 </head>
 <body>
+      <!-- header starts here -->
       <div class="ui sidebar vertical left menu">
-        <!-- sidebar menu -->
+        <!-- sidebar menu starts -->
         <a href="#" class="item">Home</a>
         <a href="#" class="item">Movies</a>
         <a href="#" class="item">Gallery</a>
@@ -23,12 +24,14 @@
         <a href="#" class="item">Features</a>
         <a href="#" class="item">Book Tickets</a>
         <a href="#" class="item"  >Contact us</a>
+        <!-- sidebar menu ends -->
       </div>
       <div class="ui equal width grid" id="top-logo">
         <div class="item" id="toggle">
          <br><a href="#"><i class="large sidebar icon"></i></a>
         </div>
         <div class="ui center aligned column">
+          <!-- SPI Cinemas logo -->
           <div class="logo-header"><img src="img/spiii.jpg" alt="SPI cinemas logo"></div>
         </div>
       </div>
@@ -42,6 +45,7 @@
         <div class="logo-header"><img src="img/spiii.jpg" alt="SPI cinemas logo"></div>
       </div>
     </div>
+    <!-- Main menu starts here -->
         <div class="right item" > <a href="#"> <i class=" home large icon"></i>    <p>Home</p></a></div>
         <div class="right item">  <a href="#"> <i class=" film large icon"></i>    <p>Movies<p></a></div>
         <div class="right item">  <a href="#"> <i class=" image large icon"></i>   <p>Gallery<p></a></div>
@@ -49,7 +53,9 @@
         <div class="right item">  <a href="#"> <i class="tasks large icon"></i>    <p>Features<p></a></div>
         <div class="right item">  <a href="#"> <i class="ticket large icon"></i>   <p>Book Tickets<p></a></div>
         <div class="right item">  <a href="#"> <i class=" call large icon"></i>    <p>Contact us<p></a></div>
+          <!-- Main menu ends here -->
 </div>
+    <!-- Header ends here -->
   <!-- <div class="ui margin"> -->
     <div class="ui grid stackable" id="jumbo">
        <!-- Jumbotron Image -->
@@ -336,14 +342,17 @@
   </footer>
 
 
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="dist/semantic.min.js"></script>
   <script>
   $('#toggle').click(function(){$('.ui.sidebar').sidebar('toggle');  });
+
   $('.ui.medium.image').dimmer({    on: 'hover'  });
+
   $('.visible.example .ui.sidebar')  .sidebar({  context: '.visible.example .bottom.segment'  })
   .sidebar('hide');
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="../semantic/dist/semantic.min.js"></script>
 </body>
 
 </html>
