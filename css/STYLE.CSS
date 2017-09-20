@@ -1,40 +1,31 @@
-
-
 .ui.menu{
       font-family: 'AvenirNext','Helvetica Neue',Arial,Helvetica,sans-serif;
-
 }
-
-
 
 .header h1{
   text-align: center;
 }
 
-
-.ui.margin.ui.grid img
-{
+.ui.margin.ui.grid img{
   margin-top:150px;
   height: 400px;
 }
-.logo-header{
 
+.logo-header{
   margin-left: 10px;
   font-size: 43px;
   color:#444;
-
 }
+
 #jumbo img{
   margin-top: 100px;
 }
 
-
-.item p
-{
+.item p{
 font-weight: bold;
 color:#6d276d;
-
 }
+
 .item i{
   color:#6d276d;
 }
@@ -44,7 +35,6 @@ color:#6d276d;
 }
 
 .ui.image img{
-
   height: 400px;
   width: 400px;
 }
@@ -52,8 +42,8 @@ color:#6d276d;
 .ui.email.alternate.stripe.vertical.segment{
   margin-top: 20px;
   background-color: #444;
-
 }
+
 .ui.email.alternate.stripe.vertical.segment p{
   color: white;
 }
@@ -61,29 +51,29 @@ color:#6d276d;
 .screen-head{
   padding-top: 30px;
   font-family: 'Bitter', serif;
-
 }
 
 #about p{
   text-align: justify;
   font-size: 13px;
 }
+
 #row-about{
   padding: 80px 0;
-
 }
+
 #rightside{
   margin-bottom: 30px;
 }
-#subscribe
-{
+
+#subscribe{
   font-family:monospace;
   font-weight: normal;
 }
+
 #facilities{
 text-align: center;
 }
-
 
 #facilities i{
   display: inline;
@@ -98,8 +88,8 @@ text-align: center;
   float: right;
   margin:30px;
   text-align: center;
-
 }
+
 .footer-bottom-bar button{
 padding-right: 15px;
 }
@@ -108,26 +98,29 @@ padding-right: 15px;
   font-size: 11px;
   padding-top: 20px;
   text-align: center;
-
 }
+
 .contact1{
   /*float:left;*/
   font-size: 13px;
-
 }
+
 .contact2{
   font-size: 13px;
   /*padding-left: 80px;*/
 }
+
 .contact3{
   text-align: center;
   /*padding-top: 10px;*/
 }
+
 .halflist1 {
   display: inline-block;
   margin-left: 120px;
   font-family: sans-serif;
 }
+
 .halflist2 {
   display: inline-block;
   margin-left: 120px;font-family: sans-serif;
@@ -142,9 +135,11 @@ padding-right: 15px;
   margin-top: 50px;
   margin-left: 400px;
 }*/
+
 #submit input{
   background-color: #6d276d;
 }
+
 .center.aligned.header.form-head{
   color: #6d276d;
   margin-top: 80px;
@@ -155,10 +150,9 @@ padding-right: 15px;
   background-repeat: no-repeat;
 
 }*/
-@media only screen and (max-width:1070px)
-{
-  #top-menu
-  {
+@media only screen and (max-width:1070px){
+
+  #top-menu{
     display: none;
   }
 
@@ -167,30 +161,25 @@ padding-right: 15px;
     padding-top: 40px;
   }
 
-
   #jumbo img{
     margin-top: 0px;
   }
-  #top-min-logo
-  {
+
+  #top-min-logo{
     display: none;
-
   }
-
 }
 
-@media only screen and (min-width:1070px)
-{
-  #top-logo
-  {
-    display: none;
+@media only screen and (min-width:1070px){
 
-  }
-  #top-min-logo
-  {
+  #top-logo{
     display: none;
-
   }
+
+  #top-min-logo{
+    display: none;
+  }
+
   #toggle{
     display: none;
   }
